@@ -32,7 +32,7 @@
             <div class="pt-3"></div>
             <div class="container">
                 <p>Home / Art Gallery / Latest Artwork</p>
-                <h1>Latest Artwork</h1>
+                <h1 class="oregonR">Latest Artwork</h1>
             </div>
             <div class="pt-3"></div>
             <div class="pt-5"></div>
@@ -46,7 +46,7 @@
 
         <!-- CHECKBOX SELECT START -->
             <div class="col-3">
-                <p class="">All Categories</p>
+                <p class="graphikB">All Categories</p>
                 <div>
                     <div class="d-flex align-items-center mb-2">
                         <input type="checkbox">
@@ -179,7 +179,7 @@
 
             <div class="col-9">
                 <div>
-                    <p>Showing 1 – 24 of 1,009 results</p>
+                    <p class="">Showing 1 – 24 of 1,009 results</p>
                     <div class="row">
                         <div class="col-4">
                             <div class="laCard">

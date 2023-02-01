@@ -28,87 +28,82 @@
 
 
 
-   <div class="owl-carousel bannerCrl owl-theme position-relative" id="bannerC">
-        <div class="item position-relative">
-            <img class="wFull" src="img/banner1.jpg" alt="">
-            <button class="bg-white ocbBtn">Read more</button>
+   <!-- BANNER START -->
+    
+        <div class="container-fluid" style="background-image: url(img/bannerbg.jpg); background-size: cover;">
+            <div class="pt-5"></div>
+            <div class="pt-3"></div>
+            <div class="container">
+                <p>Home / Shoonya 14</p>
+                <h1 class="oregonR">Shoonya 14</h1>
+            </div>
+            <div class="pt-3"></div>
+            <div class="pt-5"></div>
         </div>
-        <div class="item position-relative">
-            <img class="wFull" src="img/banner2.jpg" alt="">
-            <button class="bgPurple text-white ocbBtn">Read more</button>
-        </div>
-        <div class="item position-relative">
-            <img class="wFull" src="img/banner3.jpg" alt="">
-            <button class="bgPurple text-white ocbBtn">Read more</button>
-        </div>
-    </div>
+    
+    <!-- BANNER END -->
 
-        <div class="bg-white">
-            <div class="conteiner fluid bg-black roundBdr">
-                <div class="pt-5"></div>
-                <div class="pt-5"></div>
-                <div class="container norBtn position-relative">
-                    <h5 class="text-white mb-4 text-uppercase graphikSB">Latest Artwork</h5>
-                    <div class="owl-carousel owl-theme allCardc">
-                        <div class="item">
-                            <img class="wFull object-fit-none" src="img/artwork1.jpg" alt="">
-                            <div class="text-white mt-4">
-                                <p class="graphikM cardp1">Lady with Baloons</p>
-                                <p class="graphikR cardp2">By Girish Adannavar</p>
-                                <p class="graphikR cardp3">Acrylics on Canvas | 48 x 23 (inch)</p>
-                                <p class="graphikR cardp4">₹ 9,000.00</p>
-                            </div>                    
+        <div class="container">
+            <div class="pt-5"></div>
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/s14.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <div class="ps-5 pt-1">
+                        <h1 class="oregonR">Shoonya 14</h1>
+                        <p class="graphikB cPink">By Jyoti Kalra</p>
+                        <hr>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h1 class="oregonM">₹33,999</h1>
+                            <button class="bgLightppl text-white border border-0 px-4 py-2 graphikM"><small>Send Enquiry</small></button>
                         </div>
-                        <div class="item">
-                            <img class="wFull object-fit-none" src="img/artwork2.jpg" alt="">
-                            <div class="text-white mt-4">
-                                <p class="graphikM cardp1">Processing 1</p>
-                                <p class="graphikR cardp2">By Pankaj Bawdekar</p>
-                                <p class="graphikR cardp3">Acrylics on Canvas | 48 x 23 (inch)</p>
-                                <p class="graphikR cardp4">Price on Request</p>
-                            </div> 
+
+                        <div class="pt-4"></div>
+
+                        <div class="bg-light border rounded-2 p-4">
+                            <table>
+                                <tbody class="">
+                                    <td class="graphikSB lhMlg">Item Code:</td>
+                                    <td class="ps-5">UAG/21/000976</td>
+                                </tbody>
+                                <tbody class="">
+                                    <td class="graphikSB lhMlg">Size:</td>
+                                    <td class="ps-5">36 x 36 (inch)</td>
+                                </tbody>
+                                <tbody class="">
+                                    <td class="graphikSB lhMlg">Medium:</td>
+                                    <td class="ps-5">Acrylic on Canvas</td>
+                                </tbody>
+                                <tbody class="">
+                                    <td class="graphikSB lhMlg">Artist Sign and Certificate:</td>
+                                    <td class="ps-5">Yes</td>
+                                </tbody>
+                                <tbody class="">
+                                    <td class="graphikSB lhMlg">To be delivered as:</td>
+                                    <td class="ps-5">Framed/Rolled</td>
+                                </tbody>
+                                <tbody class="">
+                                    <td class="graphikSB lhMlg">Created In:</td>
+                                    <td class="ps-5">2021</td>
+                                </tbody>
+                            </table>
                         </div>
-                        <div class="item">
-                            <img class="wFull object-fit-none" src="img/artwork3.jpg" alt="">
-                            <div class="text-white mt-4">
-                                <p class="graphikM cardp1">Twilight Temple</p>
-                                <p class="graphikR cardp2">By Amit Srivastava</p>
-                                <p class="graphikR cardp3">Acrylics on Canvas | 48 x 23 (inch)</p>
-                                <p class="graphikR cardp4">₹ 65,000.00</p>
-                            </div> 
-                        </div>
-                        <div class="item">
-                            <img class="wFull object-fit-none" src="img/artwork4.jpg" alt="">
-                            <div class="text-white mt-4">
-                                <p class="graphikM cardp1">Twilight by Banaras</p>
-                                <p class="graphikR cardp2">By Amit Srivastava</p>
-                                <p class="graphikR cardp3">Acrylics on Canvas | 48 x 23 (inch)</p>
-                                <p class="graphikR cardp4">₹ 1,20,000.00</p>
-                            </div> 
-                        </div>
-                        <div class="item">
-                            <img class="wFull object-fit-none" src="img/artwork2.jpg" alt="">
-                            <div class="text-white mt-4">
-                                <p class="graphikM cardp1">Processing 1</p>
-                                <p class="graphikR cardp2">By Pankaj Bawdekar</p>
-                                <p class="graphikR cardp3">Acrylics on Canvas | 48 x 23 (inch)</p>
-                                <p class="graphikR cardp4">Price on Request</p>
-                            </div> 
-                        </div>
+
+                        <div class="pt-4"></div>
+
+
+
+                        <img src="img/sbox.jpg" alt="">
                     </div>
                 </div>
-                <div class="pt-5"></div>
-                <div class="pt-5"></div>
             </div>
+
         </div>
 
 
 
-
-
-
-        
-        <div class="bgBlue">
+        <div class="bgPurple">
             <div class="conteiner fluid bg-white roundBdr">
                 <div class="pt-5"></div>
                 <div class="pt-5"></div>
@@ -172,78 +167,8 @@
 
 
 
-
-
-
-        <div class="bgPurple">
-            <div class="conteiner fluid bgBlue roundBdr">
-                <div class="pt-5"></div>
-                <div class="pt-5"></div>
-                <div class="container norBtn position-relative">
-                    <h5 class="text-white mb-4 text-uppercase graphikSB">CONCEPTUAL ART</h5>
-                    <div class="owl-carousel owl-theme allCardc">
-                        <div class="item">
-                            <img class="wFull object-fit-none" src="img/ca1.jpg" alt="">
-                            <div class="text-white mt-4">
-                                <p class="graphikM cardp1">Lady with Baloons</p>
-                                <p class="graphikR cardp2">By Girish Adannavar</p>
-                                <p class="graphikR cardp3">Acrylics on Canvas | 48 x 23 (inch)</p>
-                                <p class="graphikR cardp4">₹ 9,000.00</p>
-                            </div>                    
-                        </div>
-                        <div class="item">
-                            <img class="wFull object-fit-none" src="img/ca2.jpg" alt="">
-                            <div class="text-white mt-4">
-                                <p class="graphikM cardp1">Processing 1</p>
-                                <p class="graphikR cardp2">By Pankaj Bawdekar</p>
-                                <p class="graphikR cardp3">Acrylics on Canvas | 48 x 23 (inch)</p>
-                                <p class="graphikR cardp4">Price on Request</p>
-                            </div> 
-                        </div>
-                        <div class="item">
-                            <img class="wFull object-fit-none" src="img/ca3.jpg" alt="">
-                            <div class="text-white mt-4">
-                                <p class="graphikM cardp1">Twilight Temple</p>
-                                <p class="graphikR cardp2">By Amit Srivastava</p>
-                                <p class="graphikR cardp3">Acrylics on Canvas | 48 x 23 (inch)</p>
-                                <p class="graphikR cardp4">₹ 65,000.00</p>
-                            </div> 
-                        </div>
-                        <div class="item">
-                            <img class="wFull object-fit-none" src="img/ca4.jpg" alt="">
-                            <div class="text-white mt-4">
-                                <p class="graphikM cardp1">Twilight by Banaras</p>
-                                <p class="graphikR cardp2">By Amit Srivastava</p>
-                                <p class="graphikR cardp3">Acrylics on Canvas | 48 x 23 (inch)</p>
-                                <p class="graphikR cardp4">₹ 1,20,000.00</p>
-                            </div> 
-                        </div>
-                        <div class="item">
-                            <img class="wFull object-fit-none" src="img/ca2.jpg" alt="">
-                            <div class="text-white mt-4">
-                                <p class="graphikM cardp1">Processing 1</p>
-                                <p class="graphikR cardp2">By Pankaj Bawdekar</p>
-                                <p class="graphikR cardp3">Acrylics on Canvas | 48 x 23 (inch)</p>
-                                <p class="graphikR cardp4">Price on Request</p>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
-                <div class="pt-5"></div>
-                <div class="pt-5"></div>
-            </div>
-        </div>
-
-
-
-
-
-
-
-
-
         <div class="lightblack">
-            <div class="conteiner fluid bgPurple roundBdr">
+            <div class="conteiner fluid bgPurple ">
                 <div class="pt-5"></div>
                 <div class="pt-5"></div>
                 <div class="container norBtn position-relative">

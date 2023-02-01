@@ -1,7 +1,7 @@
 <footer class="container-fluid lightblack">
     <div class="pt-5"></div>
     <div class="pt-5 mt-5"></div>
-    <div class="container text-white">
+    <div class="container wtM">
         <div class="row">
             <div class="col-4">
                 <img src="img/footerlogo.png" alt="">
