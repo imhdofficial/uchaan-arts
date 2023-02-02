@@ -279,6 +279,19 @@
 .owl-nav span{
     color: #411c4300;
 }
+
+
+
+.siconeSpan{
+    position: absolute;
+    border: 1px;
+    border-radius: 50px;
+    top: -6px;
+    right: -10px;
+    padding: 0px 7px;
+}
+
+
 /* HEADER END */
 
 

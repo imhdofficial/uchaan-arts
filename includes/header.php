@@ -14,9 +14,21 @@
                     <p class="hN2">+91 8860277388</p>
                 </div>
                 <div class="hIcone d-flex align-items-baseline">
-                    <img class="img-fluid" src="img/hi1.png" alt="">
-                    <img class="img-fluid mx-3" src="img/hi2.png" alt="">
-                    <img class="img-fluid" src="img/hi3.png" alt="">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/hi1.svg" alt="">
+                        <div class="bg-danger text-white siconeSpan"><span>2</span></div>
+                    </div>
+
+                    <div class="position-relative mx-3">    
+                        <img class="img-fluid" src="img/hi2.svg" alt="">
+                        <div class="bg-danger text-white siconeSpan"><span>8</span></div>
+                    </div>
+
+                    <div class="position-relative">    
+                        <img class="img-fluid" src="img/hi3.svg" alt="">
+                        <div class="bg-danger text-white siconeSpan"><span></span></div>
+                    </div>
+
                 </div>
             </div>
 
