@@ -176,12 +176,16 @@
 
 .hInput input{
     border: 1px solid gray !important;
-    width: 653px;
+    width: 100%;
     margin-right: 0;
-    margin-left: 29px;
+/*    margin-left: 29px;*/
     height: 45px;
     padding-left: 15px;
 
+}
+.header-part-3{
+    width: 360px;
+    flex:0 0 360px;
 }
 
 .hInput button{
@@ -198,7 +202,7 @@
 .hNumber{
     height: 45px;
     line-height: 20px;
-    margin: 0 36px;
+    margin: 0 36px 0 0px;
 }
 
 .hN1{
@@ -223,6 +227,24 @@
 .headerTwo li{
     list-style: none;
     font-size: 18px;
+}
+
+
+.h_Icons ._icon{
+    display: flex;
+    background: #8383832e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.h_Icons ._icon:hover{
+    background: #bd42422e;
+}
+.h_Icons ._icon img{
+
 }
 
 .ocbBtn{
@@ -357,4 +379,86 @@
     background-image: linear-gradient(180deg,white 26%,gray 58%);
     -webkit-background-clip: text;
     color: transparent;
+}
+
+@media (max-width: 992px){
+    .h_Icons ._icon{
+        background-color: transparent;
+    }
+    .header-part-3{
+        width: auto;
+        flex:0 0 auto;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .logo{
+        width: 80px;
+    }
+    .headerTwo{
+        position: fixed;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        z-index: -99999;
+        opacity: 0;
+        visibility: hidden;
+        transition: ease all .3s;
+        background: #000000ba;
+    }
+    .headerTwo.active{
+        z-index: 9;
+        transition: ease all .3s;
+        animation: bringToTop linear forwards 0.3s;
+        animation-delay: 0.2s;
+        visibility: visible;
+    }
+
+    @keyframes bringToTop{
+        0%{opacity: 0}
+        100%{opacity: 1}
+    }
+
+    .headerTwo > ul{
+        width: 70%;
+        background: #fff;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        transform: translateX(-100%);
+        transition: ease all .3s;
+    }
+    .headerTwo.active > ul{
+
+        transform: translateX(0%);
+        transition: ease all .3s;
+        transition-delay: 0.5s;
+    }
+    .headerTwo .close_handler{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+
+    header{
+        position: relative;
+        z-index: 3;
+    }
+
+    .hInput{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        z-index: 9;
+        display: none;
+    }
+    .hInput.active{
+        display: flex;
+    }
 }
