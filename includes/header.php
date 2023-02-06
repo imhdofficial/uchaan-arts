@@ -1,4 +1,4 @@
-<div class="bg-white">
+<div class="bg-white ">
     <header class="bg-white">
         <div class="container-fluid p-0 pt-4">
             <div class="headerOne mb-4 d-flex align-items-center container">
