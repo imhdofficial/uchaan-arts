@@ -322,8 +322,8 @@
                 autoplayTimeout: 5000,
                 responsive:{
                     0:{
-                        items:1
-                        dots:true,
+                        items:1,
+                        dots:true
 
                     },
                     600:{
