@@ -3,7 +3,7 @@
     <div class="pt-5 mt-5"></div>
     <div class="container wtM">
         <div class="row">
-            <div class="col-4">
+            <div class="col-sm-4 col-12">
                 <img src="img/footerlogo.png" alt="">
                 <div class="pt-3 mt-3"></div>
                 <div class="d-flex mb-4 align-items-center">
@@ -24,14 +24,14 @@
                 </div>
             </div>
             
-            <div class="col-2">
+            <div class="col-sm-2 col-6">
+                <div class="pt-2 d-none d-sm-block"></div>
+                <div class="pt-2 d-none d-sm-block"></div>
+                <div class="pt-2 d-none d-sm-block"></div>
                 <div class="pt-2"></div>
-                <div class="pt-2"></div>
-                <div class="pt-2"></div>
-                <div class="pt-2"></div>
-                <div class="pt-5 mt-5"></div>
+                <div class="pt-5 mt-5 d-none d-sm-block"></div>
 
-                <ul class="lh-lg ps-5">
+                <ul class="lh-lg ps-sm-5 ps-1">
                     <li class="list-group-item">About Us</li>
                     <li class="list-group-item">Testimonials</li>
                     <li class="list-group-item">Media Coverage</li>
@@ -41,12 +41,12 @@
                 </ul>
             </div>
 
-            <div class="col-2">
+            <div class="col-sm-2 col-6">
+                <div class="pt-2 d-none d-sm-block"></div>
+                <div class="pt-2 d-none d-sm-block"></div>
+                <div class="pt-2 d-none d-sm-block"></div>
                 <div class="pt-2"></div>
-                <div class="pt-2"></div>
-                <div class="pt-2"></div>
-                <div class="pt-2"></div>
-                <div class="pt-5 mt-5"></div>
+                <div class="pt-5 mt-5 d-none d-sm-block"></div>
 
                 <ul class="lh-lg ps-5 ">
                     <li class="list-group-item">Quick Pay</li>
@@ -57,7 +57,8 @@
                 </ul>
             </div>
             
-            <div class="col-4">
+            <div class="col-sm-4 col-12">
+            <div class="pt-3 mt-3 d-block d-sm-none"></div>
                 <div class="socialIcone d-flex justify-content-end">
                     <a href="https://www.facebook.com/uchaanarts/" target="_blank">
                         <img class="ms-4" src="img/fb.svg" alt="">

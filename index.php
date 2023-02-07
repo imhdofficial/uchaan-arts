@@ -28,7 +28,7 @@
 
 
 
-   <div class="owl-carousel bannerCrl owl-theme position-relative" id="bannerC">
+   <div class="owl-carousel bannerCrl owl-theme position-relative " id="bannerC">
         <div class="item position-relative">
             <img class="wFull" src="img/banner1.jpg" alt="">
             <button class="bg-white ocbBtn">Read more</button>
@@ -323,6 +323,8 @@
                 responsive:{
                     0:{
                         items:1
+                        dots:true,
+
                     },
                     600:{
                         items:1
@@ -340,10 +342,10 @@
                 dots: false,
                 responsive:{
                     0:{
-                        items:1
+                        items:1.3
                     },
                     600:{
-                        items:3
+                        items:3.5
                     },
                     1000:{
                         items:4

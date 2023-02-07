@@ -12,15 +12,14 @@
                                 <div class="logo"><img src="img/logo.svg" alt="logo"></div>
                             </a>
                     </div>
-                            <div class="hInput col  d-lg-flex">
-                                <button class="col btn btn-white" onclick="toggleSearchWindow()">
-                                    back button
-                                </button>
-                                <div class="col">
-                                    <input type="text" placeholder="Search for art, artist, place or any keyword">
-                                    
-                                </div>
-                                <button>Search</button>
+                            <div class="hInput col  d-lg-flex pt-lg-0 pt-4">
+                                    <img style="width: 25px; height: 35px;" class="d-block d-lg-none" src="img/back-btn.svg" alt="" onclick="toggleSearchWindow()">
+                                    <div class="col">
+                                        <input type="text" placeholder="Search for art, artist, place or any keyword">
+                                    </div>
+                                    <button class="d-none d-lg-block">Search</button>
+                                    <img style="width: 25px; height: 35px;" class="d-block d-lg-none" src="img/search_icon.svg" alt="" onclick="toggleSearchWindow()">
+
                             </div>
                             <div class="col-4 d-flex justify-content-end header-part-3">
                                 <div class="hNumber d-none d-lg-block">
@@ -52,9 +51,12 @@
                         </div>
                     </div>
 
-            <div class="headerTwo align-items-center d-lg-flex">
+            <div class="headerTwo align-items-center justify-content-center d-lg-flex">
                 <span class="close_handler d-lg-none"></span>
                 <ul class="d-lg-flex justify-content-center mb-0 py-3">
+                    <div class="logo d-block d-lg-none"><img src="img/logo.svg" alt="logo"></div>
+                    
+
                     <a href="index.php">
                         <li class="hList">Home</li>
                     </a>
@@ -81,6 +83,10 @@
 
                     <a href="#">
                         <li class="hList">Submit Artwork</li>
+                    </a>
+
+                    <a href="#">
+                        <li class="hList d-block d-lg-none">Profile</li>
                     </a>
 
                 </ul>
