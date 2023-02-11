@@ -31,7 +31,8 @@
    <div class="owl-carousel bannerCrl owl-theme position-relative " id="bannerC">
         <div class="item position-relative">
             <img class="wFull" src="img/banner1.jpg" alt="">
-            <button class="bg-white ocbBtn">Read more</button>
+            <button class="bg-white ocbBtn" onclick="addToWishlist()">Read more</button>
+            <button class="bg-white ocbBtn" onclick="clearWishlist()" style="left: 260px;">Remove all wishlist</button>
         </div>
         <div class="item position-relative">
             <img class="wFull" src="img/banner2.jpg" alt="">
@@ -317,7 +318,7 @@
                 // margin:10,
                 nav:true,
                 margin:0,
-                autoplay: true,
+                autoplay: false,
                 dots: false,
                 autoplayTimeout: 5000,
                 responsive:{

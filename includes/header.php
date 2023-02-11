@@ -15,9 +15,9 @@
                             <div class="hInput col  d-lg-flex pt-lg-0 pt-4">
                                     <img style="width: 25px; height: 35px;" class="d-block d-lg-none" src="img/back-btn.svg" alt="" onclick="toggleSearchWindow()">
                                     <div class="col">
-                                        <input type="text" placeholder="Search for art, artist, place or any keyword">
+                                        <input id="searchInput" type="text" placeholder="Search for art, artist, place or any keyword">
                                     </div>
-                                    <button class="d-none d-lg-block">Search</button>
+                                    <button class="d-none d-lg-block" onclick="captureSearch()">Search</button>
                                     <img style="width: 25px; height: 35px;" class="d-block d-lg-none" src="img/search_icon.svg" alt="" onclick="toggleSearchWindow()">
 
                             </div>
@@ -33,12 +33,15 @@
                                     </div>
                                     <div class="position-relative">
                                         <span class="_icon"><img class="img-fluid" src="img/wishlist_icon.svg" alt=""></span>
-                                        <div class="bg-danger text-white siconeSpan"><span>2</span></div>
+                                        <div id="wishlistCount" class="bg-danger text-white siconeSpan">
+                                            <span class="value">0</span>
+                                            <input type="hidden" value="0" id="wishlistCountHidden">
+                                        </div>
                                     </div>
                 
                                     <div class="position-relative mx-1 mx-lg-3">    
                                         <span class="_icon"><img class="img-fluid" src="img/cart_icon.svg" alt=""></span>
-                                        <div class="bg-danger text-white siconeSpan"><span>8</span></div>
+                                        <div id="cartItemCount" class="d-none  bg-danger text-white siconeSpan"><span>0</span></div>
                                     </div>
                 
                                     <div class="position-relative d-none d-lg-block">    
@@ -95,7 +98,46 @@
     </header>
 </div>
 
+<style>
+    header.active {
+        transform: translate(0px, -60px);
+    }
+</style>
 <script>
+
+
+
+    jQuery(document).ready(function($) {
+
+
+       if(localStorage.getItem("wishListCount") != null){
+               let wishListCount = localStorage.getItem("wishListCount");
+
+                $("#wishlistCountHidden").val(wishListCount);
+
+                $("#wishlistCount .value").text(wishListCount);
+        }else{
+
+            $("#wishlistCount").addClass("d-none");
+        }
+
+    });
+
+  
+
+    // $(window).on('load',function(){
+    //     alert(2);
+    // })
+
+     
+    // $(window).scroll(function(event) {
+
+    //     if($(window).scrollTop() > 1000){
+
+    //     }
+
+    // });
+
 
 
     $(".headerTwo .close_handler").click(function(){
@@ -111,5 +153,42 @@
         $(".hInput").toggleClass("active")
     }
 
+
+ 
+    function addToWishlist(){
+        
+        let currentCount = parseInt($("#wishlistCountHidden").val());
+        
+        currentCount += 1;
+
+        $("#wishlistCountHidden").val(currentCount);
+
+        $("#wishlistCount .value").text(currentCount);
+        $("#wishlistCount").removeClass("d-none");
+
+        localStorage.setItem("wishListCount",currentCount)
+
+    }
+
+
+    function clearWishlist(){
+
+        $("#wishlistCountHidden").val(0);
+        $("#wishlistCount .value").text(0);
+        $("#wishlistCount").addClass("d-none");
+        localStorage.removeItem("wishListCount");
+
+    }
+
+
+function captureSearch(){
+
+     
+    let search = $("#searchInput").val();
+
+    localStorage.setItem("searchLog",search)
+
+
+}
 
 </script>
