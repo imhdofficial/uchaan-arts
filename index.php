@@ -26,23 +26,33 @@
    <?php include 'includes/header.php'  ?>
 
 
-
+ 
 
    <div class="owl-carousel bannerCrl owl-theme position-relative " id="bannerC">
         <div class="item position-relative">
             <img class="wFull" src="img/banner1.jpg" alt="">
             <button class="bg-white ocbBtn" onclick="addToWishlist()">Read more</button>
             <button class="bg-white ocbBtn" onclick="clearWishlist()" style="left: 260px;">Remove all wishlist</button>
+ 
+        <div class="bg-black">
+            <div class="">
+                <div class="owl-carousel bannerCrl owl-theme position-relative bg-white  " id="bannerC">
+                    <div class="item position-relative">
+                        <img class="wFull" src="img/banner1.jpg" alt="">
+                        <button class="bg-white ocbBtn">Read more</button>
+                    </div>
+                    <div class="item position-relative">
+                        <img class="wFull" src="img/banner2.jpg" alt="">
+                        <button class="bgPurple text-white ocbBtn">Read more</button>
+                    </div>
+                    <div class="item position-relative">
+                        <img class="wFull" src="img/banner3.jpg" alt="">
+                        <button class="bgPurple text-white ocbBtn">Read more</button>
+                    </div>
+                </div>
+            </div>
+ 
         </div>
-        <div class="item position-relative">
-            <img class="wFull" src="img/banner2.jpg" alt="">
-            <button class="bgPurple text-white ocbBtn">Read more</button>
-        </div>
-        <div class="item position-relative">
-            <img class="wFull" src="img/banner3.jpg" alt="">
-            <button class="bgPurple text-white ocbBtn">Read more</button>
-        </div>
-    </div>
 
         <div class="bg-white">
             <div class="conteiner fluid bg-black roundBdr">
