@@ -31,13 +31,13 @@
         <div class="pt-5"></div>
         <div class="container">
             <div class="row">
-                <div class="col-5 d-flex align-items-center justify-content-center">
+                <div class="col-5 d-none d-sm-block d-flex align-items-center justify-content-center">
                     <div class="pt-5"></div>
                     <img src="img/auslogo.png" alt="" class="px-1">
                     <div class="pt-5"></div>
                 </div>
-                <div class="col-7">
-                    <div class="p-5 text-white" style="background-color: #000000b8;">
+                <div class="col-sm-7 col-12">
+                    <div class="p-1 text-center text-sm-start p-sm-5 text-white" style="background-color: #000000b8;">
                         <h1>About Us</h1>
                         <img src="img/ausline.png" alt="" class="mt-4" style="margin-left: -70px; width: 319px;">
                         <p class="mt-5">
@@ -97,10 +97,10 @@
                 dots: false,
                 responsive:{
                     0:{
-                        items:1
+                        items:1.3
                     },
                     600:{
-                        items:3
+                        items:3.5
                     },
                     1000:{
                         items:4

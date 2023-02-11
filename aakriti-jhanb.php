@@ -49,10 +49,10 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-4 position-relative">
+                <div class="col-sm-4 col-12 position-relative">
                     <img src="img/aakriti.jpg" alt="" class="aakritiP">
                 </div>
-                <div class="col-7">
+                <div class="col-sm-7 col-12">
                         <p class="lh-sm">
                             She is a self-taught artist who expresses herself primarily through the coherence and contrast of colors.
                             <br><br>
@@ -69,7 +69,7 @@
                             As an artist, her work encourages many unique perspectives.
                             <br><br>
                         </p>
-                        <img src="img/sbox.jpg" alt="">
+                        <img src="img/sbox.jpg" alt="" class="img-fluid">
                 </div>
                 <div class="col-1"></div>
             </div>
@@ -77,14 +77,14 @@
         </div>
 
             <div class="container">
-                <div class="px-5 d-flex justify-content-center">
+                <div class="px-sm-5 p-0 d-flex justify-content-sm-center">
                     <div>
                         <p class="">Showing 1 – 24 of 1,009 results</p>
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <div class="laCard">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la1.jpg" alt="">
+                                        <img class="img-fluid" src="img/la1.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -95,7 +95,7 @@
                                 </div>
                                 <div class="laCard mt-5">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la2.jpg" alt="">
+                                        <img class="img-fluid" src="img/la2.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -106,7 +106,7 @@
                                 </div>
                                 <div class="laCard mt-5">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la3.jpg" alt="">
+                                        <img class="img-fluid" src="img/la3.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -117,7 +117,7 @@
                                 </div>
                                 <div class="laCard mt-5">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la4.jpg" alt="">
+                                        <img class="img-fluid" src="img/la4.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -130,10 +130,10 @@
 
 
 
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <div class="laCard">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la5.jpg" alt="">
+                                        <img class="img-fluid" src="img/la5.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="laCard mt-5">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la1.jpg" alt="">
+                                        <img class="img-fluid" src="img/la1.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -155,7 +155,7 @@
                                 </div>
                                 <div class="laCard mt-5">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la6.jpg" alt="">
+                                        <img class="img-fluid" src="img/la6.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -166,7 +166,7 @@
                                 </div>
                                 <div class="laCard mt-5">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la7.jpg" alt="">
+                                        <img class="img-fluid" src="img/la7.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -180,10 +180,10 @@
 
 
 
-                            <div class="col-4">
+                            <div class="col-md-4 col-12">
                                 <div class="laCard">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la8.jpg" alt="">
+                                        <img class="img-fluid" src="img/la8.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -194,7 +194,7 @@
                                 </div>
                                 <div class="laCard mt-5">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la9.jpg" alt="">
+                                        <img class="img-fluid" src="img/la9.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -205,7 +205,7 @@
                                 </div>
                                 <div class="laCard mt-5">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la10.jpg" alt="">
+                                        <img class="img-fluid" src="img/la10.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>
@@ -216,7 +216,7 @@
                                 </div>
                                 <div class="laCard mt-5">
                                     <div>
-                                        <img class=" object-fit-none" src="img/la1.jpg" alt="">
+                                        <img class="img-fluid" src="img/la1.jpg" alt="">
                                         <div class="text-white mt-4">
                                             <p class="graphikM lcardp1">Lady with Baloons</p>
                                             <p class="graphikR lcardp2">By Girish Adannavar</p>

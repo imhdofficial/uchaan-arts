@@ -13,13 +13,14 @@
                             </a>
                     </div>
                             <div class="hInput col  d-lg-flex pt-lg-0 pt-4">
-                                    <img style="width: 25px; height: 35px;" class="d-block d-lg-none" src="img/back-btn.svg" alt="" onclick="toggleSearchWindow()">
+                                <div class="d-flex col sdo">
+                                    <img style="width: 25px; height: 50px;" class="d-block d-lg-none" src="img/back-btn.svg" alt="" onclick="toggleSearchWindow()">
                                     <div class="col">
                                         <input type="text" placeholder="Search for art, artist, place or any keyword">
                                     </div>
-                                    <button class="d-none d-lg-block">Search</button>
-                                    <img style="width: 25px; height: 35px;" class="d-block d-lg-none" src="img/search_icon.svg" alt="" onclick="toggleSearchWindow()">
-
+                                    <button  class="d-none d-lg-block">Search</button>
+                                    <img style="width: 25px; height: 50px;" class="d-block d-lg-none" src="img/search_icon.svg" alt="">
+                                </div>
                             </div>
                             <div class="col-4 d-flex justify-content-end header-part-3">
                                 <div class="hNumber d-none d-lg-block">
@@ -81,7 +82,7 @@
                         <li class="hList">Exhibition</li>
                     </a>
 
-                    <a href="#">
+                    <a href="all.php">
                         <li class="hList">Submit Artwork</li>
                     </a>
 

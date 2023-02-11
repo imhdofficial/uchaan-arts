@@ -46,11 +46,11 @@
         <div class="container">
             <div class="pt-5"></div>
             <div class="row">
-                <div class="col-5">
-                    <img src="img/s14.jpg" alt="">
+                <div class="col-md-5 col-12">
+                    <img src="img/s14.jpg" alt="" class="img-fluid">
                 </div>
-                <div class="col-6">
-                    <div class="ps-5 pt-1">
+                <div class="col-md-6 col-12">
+                    <div class="ps-md-5 p-0 pt-md-1 pt-4">
                         <h1 class="oregonR">Shoonya 14</h1>
                         <p class="graphikB cPink">By Jyoti Kalra</p>
                         <hr>
@@ -94,7 +94,7 @@
 
 
 
-                        <img src="img/sbox.jpg" alt="">
+                        <img src="img/sbox.jpg" alt="" class="img-fluid pb-5 pb-sm-0">
                     </div>
                 </div>
             </div>
@@ -247,7 +247,7 @@
                 autoplayTimeout: 5000,
                 responsive:{
                     0:{
-                        items:1
+                        items:1.
                     },
                     600:{
                         items:1
@@ -265,10 +265,10 @@
                 dots: false,
                 responsive:{
                     0:{
-                        items:1
+                        items:1.3
                     },
                     600:{
-                        items:3
+                        items:3.5
                     },
                     1000:{
                         items:4
