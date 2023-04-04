@@ -245,14 +245,6 @@
             </div>
         </div>
 
-
-
-
-
-
-
-
-
         <div class="lightblack">
             <div class="conteiner fluid bgPurple roundBdr">
                 <div class="pt-5"></div>
